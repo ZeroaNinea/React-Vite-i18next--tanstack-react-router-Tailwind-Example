@@ -77,3 +77,13 @@ createRoot(document.getElementById('root')!).render(
   </StrictMode>,
 );
 ```
+
+## Integrate `i18next`
+
+Install `i18next`:
+
+```bash
+npm i i18next react-i18next
+```
+
+Create a `utils/i18n/index.ts` file and add JSON files for it: [utils/i18n/index.ts](./src/utils/i18n/index.ts)
