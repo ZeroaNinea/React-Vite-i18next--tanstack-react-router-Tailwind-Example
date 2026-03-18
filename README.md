@@ -42,3 +42,11 @@ Import `tailwindcss` into `ìndex.css`:
 ```css
 @import 'tailwindcss';
 ```
+
+## Install @tanstack/react-router
+
+Install @tanstack/react-router:
+
+```bash
+npm i @tanstack/react-router @tanstack/router-devtools
+```
