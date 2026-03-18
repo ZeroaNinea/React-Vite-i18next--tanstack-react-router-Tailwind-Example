@@ -2,6 +2,10 @@
 
 This is an eaxmple how to create a project with React + Vite + i18next + Tailwind + @tanstack/react-router.
 
+## ⚠️ Warning
+
+> If you're trying to install dependencies with my current version of Vite, you might have issues with the compatibility of the dependencies. In this case, try to install the dependencies with the `--force` flag.
+
 ## Create a Project
 
 Create a new project:
