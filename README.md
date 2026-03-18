@@ -18,6 +18,12 @@ Install Tailwind:
 npm i tailwindcss @tailwindcss/vite
 ```
 
+If you have issues with installing `@tailwindcss/vite`, then try:
+
+```bash
+npm i --force @tailwindcss/vite
+```
+
 Import `@tailwindcss/vite` in `vite.config.ts`:
 
 ```ts
