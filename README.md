@@ -87,3 +87,11 @@ npm i i18next react-i18next
 ```
 
 Create a `utils/i18n/index.ts` file and add JSON files for it: [utils/i18n/index.ts](./src/utils/i18n/index.ts)
+
+Import `i18next` into `main.tsx`:
+
+```tsx
+import './utils/i18n';
+```
+
+Integrate `i18next` in `App.tsx`: [App.tsx](./src/App.tsx)
