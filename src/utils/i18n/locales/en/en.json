@@ -1,3 +1,13 @@
 {
-  "title": "Get Started"
+  "title": "Get Started",
+  "edit": "Edit",
+  "andSaveToTest": "and save to test",
+  "countIs": "Count is",
+  "subtitle1": "Documentation",
+  "p1": "Your questions, answered",
+  "subtitle2": "Connect with us",
+  "p2": "Join the Vite community",
+  "explore": "Explore Vite",
+  "learn": "Learn more",
+  "button": "Button"
 }

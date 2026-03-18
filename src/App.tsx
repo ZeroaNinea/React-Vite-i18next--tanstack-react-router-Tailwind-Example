@@ -22,14 +22,15 @@ function App() {
         <div>
           <h1>{t('title')}</h1>
           <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
+            {t('edit')} <code>src/App.tsx</code> {t('andSaveToTest')}{' '}
+            <code>HMR</code>
           </p>
         </div>
         <button
           className="counter"
           onClick={() => setCount((count) => count + 1)}
         >
-          Count is {count}
+          {t('countIs')} {count}
         </button>
       </section>
 
@@ -40,19 +41,25 @@ function App() {
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
+          <h2>{t('subtitle1')}</h2>
+          <p>{t('p1')}</p>
           <ul>
             <li>
               <a href="https://vite.dev/" target="_blank">
                 <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
+                {t('explore')}
+              </a>
+            </li>
+            <li>
+              <a href="https://vitejs.dev/guide/" target="_blank">
+                <img className="button-icon" src={viteLogo} alt="" />
+                {t('learn')}
               </a>
             </li>
             <li>
               <a href="https://react.dev/" target="_blank">
                 <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
+                {t('learn')}
               </a>
             </li>
           </ul>
@@ -61,8 +68,8 @@ function App() {
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#social-icon"></use>
           </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
+          <h2>{t('subtitle2')}</h2>
+          <p>{t('p2')}</p>
           <ul>
             <li>
               <a href="https://github.com/vitejs/vite" target="_blank">
@@ -127,7 +134,7 @@ function App() {
         cursor-pointer
         "
       >
-        Button
+        {t('button')}
       </button>
     </>
   );
