@@ -50,3 +50,26 @@ Install @tanstack/react-router:
 ```bash
 npm i @tanstack/react-router @tanstack/router-devtools
 ```
+
+## Integrate `@tanstack/react-router`
+
+Create `router.tsx`: [router.tsx](./src/router.tsx)
+
+Then import the `AppRouter` into `main.tsx`:
+
+```tsx
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+
+import './index.css';
+
+import { AppRouter } from './router.tsx';
+
+// import App from './App.tsx'
+
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <AppRouter />
+  </StrictMode>,
+);
+```
