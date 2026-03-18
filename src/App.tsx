@@ -51,12 +51,6 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="https://vitejs.dev/guide/" target="_blank">
-                <img className="button-icon" src={viteLogo} alt="" />
-                {t('learn')}
-              </a>
-            </li>
-            <li>
               <a href="https://react.dev/" target="_blank">
                 <img className="button-icon" src={reactLogo} alt="" />
                 {t('learn')}
