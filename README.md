@@ -4,7 +4,7 @@ This is an eaxmple how to create a project with React + Vite + i18next + Tailwin
 
 ## ⚠️ Warning
 
-> If you're trying to install dependencies with my current version of Vite, you might have issues with the compatibility of the dependencies. In this case, try to install the dependencies with the `--force` flag. Or you can try to create a project with older versions of Vite that do not have compatibility issues.
+> If you're trying to install dependencies with my current version of Vite, you might have issues with the compatibility of the dependencies. In this case, try to install the dependencies with the `--force` flag. Or you can try to create a project with older versions of Vite which do not have compatibility issues.
 
 ## Create a Project
 
